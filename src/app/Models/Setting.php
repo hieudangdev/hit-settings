@@ -5,8 +5,8 @@ namespace Backpack\Settings\app\Models;
 use Backpack\CRUD\app\Models\Traits\CrudTrait;
 use Config;
 use Illuminate\Database\Eloquent\Model;
-use Hacoidev\CachingModel\Contracts\Cacheable;
-use Hacoidev\CachingModel\HasCache;
+use Khophim8k\CachingModel\Contracts\Cacheable;
+use Khophim8k\CachingModel\HasCache;
 
 class Setting extends Model implements Cacheable
 {
